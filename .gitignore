@@ -1,0 +1,38 @@
+# Compilados binários
+/target/
+**/*.rs.bk
+
+# Diretórios temporários de compilação
+**/build/
+**/out/
+
+# Dependências do Rust
+/Cargo.lock
+
+# Configurações locais do Rust
+/.cargo/
+/.cargo-target
+
+# Logs e depurações
+*.log
+*.stderr
+*.stdout
+
+# Arquivos gerados por IDEs e editores
+/.idea/
+/.vscode/
+/*.iml
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Artefatos de testes e benchmarks
+/tests/output/
+benches/output/
+*.profdata
+
+# Outras configurações locais
+.env
+*.toml.bk
+/data
