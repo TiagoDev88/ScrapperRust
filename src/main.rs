@@ -213,8 +213,8 @@ struct ProdutoCSV {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-    let csv_input = "data/haar-shop_1_com_link_2.csv";
-    let pasta_jsons = "data/haar-shop_1/json_produtos_2";
+    let csv_input = "LOCALIZACAO DO CSV";
+    let pasta_jsons = "LOCALIZACAO DOS JSON CRIADOS data/";
 
     let driver = Arc::new(Mutex::new(initialize_driver().await?));
 
